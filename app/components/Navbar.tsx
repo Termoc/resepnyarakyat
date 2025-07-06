@@ -29,14 +29,14 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`fixed top-0 left-0 w-full z-50 bg-[#EA2F14] flex justify-evenly text-white items-center transition-all duration-300 ease-in-out
+        className={`fixed top-0 left-0 w-full z-50 first-bgs flex justify-evenly text-white items-center transition-all duration-300 ease-in-out
           ${scrolled ? "h-16 p-3" : "h-24 p-5"}`} // Mengurangi tinggi dan padding saat di-scroll
       >
         <Link href={"/"}>
           <div className="flex items-center justify-center gap-3">
             <span>Name</span>
             <MdGrass
-              className={`transition-all duration-300 ease-in-out text-[#FB9E3A] ${
+              className={`transition-all duration-300 ease-in-out third-text ${
                 scrolled ? "text-3xl" : "text-5xl"
               }`}
             />{" "}

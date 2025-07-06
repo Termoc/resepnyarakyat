@@ -8,16 +8,16 @@ export default function Home() {
     <>
       <Navbar /> {/* Tambahkan Navbar di homepage baru */}
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-100px)] p-4">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#E6521F] mb-6 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold second-text mb-6 text-center">
           Selamat Datang di Resep Rakyat!
         </h1>
-        <p className="text-lg text-[#FB9E3A] mb-8 text-center max-w-2xl">
+        <p className="text-lg third-text mb-8 text-center max-w-2xl">
           Temukan berbagai resep lezat dari seluruh dunia. Mulai jelajahi
           koleksi resep kami sekarang!
         </p>
         <Link
           href="/menu"
-          className="inline-flex items-center justify-center bg-[#EA2F14] hover:bg-[#E6521F] text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg text-xl"
+          className="inline-flex items-center justify-center first-bgs hover:second-bgs text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg text-xl"
         >
           Jelajahi Resep
           <svg

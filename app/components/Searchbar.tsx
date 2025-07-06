@@ -60,7 +60,7 @@ const Searchbar: React.FC<SearchbarProps> = ({
 
           {/* Search Button - NOW a submit button */}
           <button
-            className="rounded-md bg-[#EA2F14] py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-[#FB9E3A] focus:shadow-none active:bg-[#FCEF91] hover:bg-[#E6521F] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
+            className="rounded-md bg-[#EA2F14] py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:third-bgs focus:shadow-none active:fourth-bgs hover:second-bgs active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
             type="submit" // Change type to "submit"
           >
             Search

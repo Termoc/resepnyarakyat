@@ -18,3 +18,28 @@
     --foreground: #ededed;
   }
 }
+
+.first-bgs {
+  background-color: #ea2f14;
+}
+.first-text {
+  color: #ea2f14;
+}
+.second-bgs {
+  background-color: #e6521f;
+}
+.second-text {
+  color: #e6521f;
+}
+.third-bgs {
+  background-color: #fb9e3a;
+}
+.third-text {
+  color: #fb9e3a;
+}
+.fourth-bgs {
+  background-color: #fff8c2;
+}
+.fourth-text {
+  color: #fff8c2;
+}

@@ -202,7 +202,7 @@ export default function Menu() {
               ) => (
                 <div
                   key={recipe.idMeal}
-                  className="rounded-lg shadow-lg hover:-translate-y-1 hover:shadow-xl hover:bg-[#fff8c2] ease duration-300 overflow-hidden flex flex-col cursor-pointer " // Added cursor-pointer
+                  className="rounded-lg shadow-lg hover:-translate-y-1 hover:shadow-xl hover:fourth-bgs ease duration-300 overflow-hidden flex flex-col cursor-pointer " // Added cursor-pointer
                   onClick={() => handleRecipeClick(recipe.strMeal)} // Add onClick handler
                 >
                   {recipe.strMealThumb && (
